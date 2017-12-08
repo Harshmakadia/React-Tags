@@ -1,0 +1,33 @@
+{
+  "name": "tags-component",
+  "version": "1.0.0",
+  "description": "A unique way of adding dynamic tags and removing them if not required",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel lib -d build",
+    "lint": "eslint lib/**; exit 0",
+    "lint:watch": "esw -w lib/**",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harshmakadia/tags-component.git"
+  },
+  "keywords": [
+    "Tags",
+    "Reactjs"
+  ],
+  "author": "Harsh Makadia <harshmakadia11@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harshmakadia/tags-component/issues"
+  },
+  "homepage": "https://github.com/Harshmakadia/tags-component#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "eslint": "^4.12.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
